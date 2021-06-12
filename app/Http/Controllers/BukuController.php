@@ -4,8 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use Excel;
-use App\Exports\UsersExport;
+use App\Exports\TableExport;
+use Maatwebsite\Excel\Facades\Excel;
 
 class BukuController
 {
@@ -23,7 +23,7 @@ class BukuController
 
     public function export() 
     {
-        return Excel::download(new UsersExport, 'Buku.xlsx');
+        return Excel::download(new TableExport, 'Data_1461900269.xlsx');
     }
 
     /**

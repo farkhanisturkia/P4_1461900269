@@ -10,7 +10,7 @@
 <body> 
     <div>
         <header>
-		    <li><a href="/print0269">Print</a></li>
+		    <li><a href="/print0269">download</a></li>
         </header>
         <div class="menu-tengah">
             <div class="kotak">

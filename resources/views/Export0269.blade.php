@@ -7,10 +7,10 @@
 		</tr>
 		@foreach($rak_buku as $rb)
 		<tr>
-			<td>{{ $rb->id }}</td>
-			<td>{{ $rb->judul_buku }}</td>
-            <td>{{ $rb->tahun_buku }}</td>
-            <td>{{ $rb->jenis_b }}</td>
-		    </tr>
+			 <td>{{ $rb->id }}</td>
+			 <td>{{ $rb->judul_buku }}</td>
+             <td>{{ $rb->tahun_buku }}</td>
+             <td>{{ $rb->jenis_b }}</td>
+		</tr>
 		@endforeach
 </table>
